@@ -1,0 +1,41 @@
+{
+  "name": "blackstar-quiz",
+  "version": "1.0.0",
+  "description": "Kumpulan API Kuis berbahasa Indonesia dalam bentuk module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackberryhazard-org/blackstar-quiz.git"
+  },
+  "keywords": [
+    "quiz",
+    "kuis",
+    "indonesia",
+    "api",
+    "game"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackberryhazard-org/blackstar-quiz/issues"
+  },
+  "homepage": "https://github.com/blackberryhazard-org/blackstar-quiz#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}

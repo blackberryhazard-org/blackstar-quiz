@@ -1,4 +1,4 @@
-[
+export const whatchemistryData = [
   {
     "unsur": "Aktinium",
     "lambang": "Ac"
@@ -499,4 +499,4 @@
     "unsur": "Zirkonium",
     "lambang": "Zr"
   }
-]
+];
